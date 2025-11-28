@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Wing Bank</title>
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- STICKY NAV -->
+    <header id="site-header" class="site-header">
+      <div class="container nav-row">
+        <a class="brand" href="#">
+          <img
+            src="assets/images/favicon.svg"
+            alt="Wing Bank"
+            class="brand-logo"
+          />
+        </a>
+
+        <nav id="nav-menu" class="nav-menu" aria-label="Main navigation">
+          <a href="#hero">Home</a>
+          <a href="#why">Why</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#footer">Contact</a>
+        </nav>
+
+        <button
+          id="hamburger"
+          class="hamburger"
+          aria-label="Open menu"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <main>
+      <section id="hero" class="hero">
+        <div class="container hero-inner">
+          <h1 class="hero-title">
+            Digital Banking for Every<br />
+            Cambodian Smart services. Real support.<br />
+            All in one app made for you.
+          </h1>
+
+          <!-- FEATURES ROW (Grid) -->
+          <div class="features-row" aria-hidden="false">
+            <div class="feature">
+              <!-- Using uploaded image path as reference; move to assets/images/ if needed -->
+              <img src="assets/images/wing-app.png" alt="App icon reference" />
+              <button class="pill">Wing Bank App</button>
+            </div>
+
+            <div class="feature">
+              <img src="assets/images/whatis-new.png" alt="What's new icon" />
+              <button class="pill">What's New</button>
+            </div>
+
+            <div class="feature">
+              <img
+                src="assets/images/self-service.png"
+                alt="Self service icon"
+              />
+              <button class="pill">Self Service</button>
+            </div>
+
+            <div class="feature">
+              <img
+                src="assets/images/24hour-support.png"
+                alt="24/7 support icon"
+              />
+              <button class="pill">24/7 Support</button>
+            </div>
+          </div>
+
+          <p class="hero-desc">
+            The Bank for Every Cambodian Since 2008, Wing Bank has transformed
+            how Cambodians access and manage their money. As one of the
+            fastest-growing and most trusted banks in Cambodia, we're proud to
+            serve millions with smart, secure, and convenient financial
+            solutions.
+          </p>
+        </div>
+      </section>
+
+      <!-- WHY (CSS GRID for cards) -->
+      <section id="why" class="section why container">
+        <h2>Why Wing Bank</h2>
+        <p class="lead">
+          Banking made simple, secure, and accessible for every Cambodian.
+        </p>
+
+        <div class="why-grid">
+          <article class="why-card">
+            <h3>Instant Transfers</h3>
+            <p>Send and receive money in seconds, anytime, anywhere.</p>
+          </article>
+          <article class="why-card">
+            <h3>Mobile Banking</h3>
+            <p>Manage your finances on-the-go with our easy-to-use app.</p>
+          </article>
+          <article class="why-card">
+            <h3>Wide Network</h3>
+            <p>Access thousands of agents and ATMs across Cambodia.</p>
+          </article>
+          <article class="why-card">
+            <h3>Bill Payments</h3>
+            <p>Pay utilities, phone bills, and more with just a few taps.</p>
+          </article>
+          <article class="why-card">
+            <h3>Secure & Safe</h3>
+            <p>Bank-grade security with fraud protection and encryption.</p>
+          </article>
+          <article class="why-card">
+            <h3>24/7 Support</h3>
+            <p>Our customer service team is always ready to help you.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- PRICING (exactly 3 plans; Flexbox) -->
+      <section id="pricing" class="section pricing container">
+        <h2>Account Types</h2>
+        <p class="section-desc">
+          Choose the perfect account that fits your financial needs
+        </p>
+        <div class="plans">
+          <div class="plan">
+            <h3>Basic Account</h3>
+            <p class="price">Free</p>
+            <ul>
+              <li>Free account opening</li>
+              <li>Mobile app access</li>
+              <li>Money transfers</li>
+              <li>Bill payments</li>
+            </ul>
+            <a class="btn" href="#">Open Account</a>
+          </div>
+
+          <div class="plan popular">
+            <h3>Premium Account</h3>
+            <p class="price">$2 / mo</p>
+            <ul>
+              <li>All Basic features</li>
+              <li>Higher transaction limits</li>
+              <li>Priority customer support</li>
+              <li>Free ATM withdrawals</li>
+            </ul>
+            <a class="btn primary" href="#">Get Premium</a>
+          </div>
+
+          <div class="plan">
+            <h3>Business Account</h3>
+            <p class="price">$10 / mo</p>
+            <ul>
+              <li>For businesses & merchants</li>
+              <li>QR payment collection</li>
+              <li>Transaction reports</li>
+              <li>Dedicated account manager</li>
+            </ul>
+            <a class="btn" href="#">Learn More</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS (grid) -->
+      <section id="testimonials" class="section testimonials container">
+        <h2>What our customers say</h2>
+        <p class="section-desc">
+          Hear from our satisfied customers across Cambodia
+        </p>
+
+        <div class="testimonials-grid">
+          <blockquote class="testimonial">
+            <p>
+              “Wing Bank made sending money to my family so easy. I can do it
+              anytime from my phone!”
+            </p>
+            <cite>— Sokha<br /><span>Teacher from Siem Reap</span></cite>
+          </blockquote>
+
+          <blockquote class="testimonial">
+            <p>
+              “As a small business owner, Wing Bank helps me manage payments
+              efficiently. Highly recommend!”
+            </p>
+            <cite>— Dara<br /><span>Shop Owner from Phnom Penh</span></cite>
+          </blockquote>
+
+          <blockquote class="testimonial">
+            <p>
+              “The customer service is excellent and the app is very
+              user-friendly. Best banking experience!”
+            </p>
+            <cite>— Chanthy<br /><span>Student from Battambang</span></cite>
+          </blockquote>
+
+          <blockquote class="testimonial">
+            <p>
+              “I love how fast the transactions are. Paying bills has never been
+              easier. Wing Bank is the best!”
+            </p>
+            <cite>— Virak<br /><span>Engineer from Phnom Penh</span></cite>
+          </blockquote>
+
+          <blockquote class="testimonial">
+            <p>
+              “The mobile app is so convenient! I can check my balance and
+              transfer money wherever I am. Amazing service!”
+            </p>
+            <cite>— Sreymom<br /><span>Nurse from Kampong Cham</span></cite>
+          </blockquote>
+
+          <blockquote class="testimonial">
+            <p>
+              “Opening an account was simple and quick. The staff were very
+              helpful and professional. Thank you Wing Bank!”
+            </p>
+            <cite>— Rathana<br /><span>Farmer from Kandal</span></cite>
+          </blockquote>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="footer" class="footer">
+      <div class="container footer-inner">
+        <div class="footer-links">
+          <div class="footer-section">
+            <h4>Contact Us</h4>
+            <p>📞 Hotline: 023 999 989</p>
+            <p>📧 Email: care.centre@wingbank.com.kh</p>
+            <p>📍 Address: Phnom Penh, Cambodia</p>
+          </div>
+          <div class="footer-section">
+            <h4>Follow Us</h4>
+            <p>
+              <a
+                href="https://web.facebook.com/WingBankKH"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Facebook</a
+              >
+              •
+              <a
+                href="https://www.instagram.com/wingbankkh/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Instagram</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="credit">© 2025 Wing Bank. Developed by Huch Pichsovann</div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
