@@ -4,7 +4,7 @@
 
 ## Live Demo
 
-[View Live Site](https://your-username.github.io/your-repo-name/)
+[View Live Site](https://pichsovann16.github.io/Responsive-Webpage/)
 
 ## Screenshots
 
@@ -118,7 +118,7 @@ Creatingfirstpage/
 
 1. Download or clone this repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/Pichsovann16/Responsive-Webpage
    ```
 2. Navigate to the project folder:
    ```bash
